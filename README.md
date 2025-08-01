@@ -2,7 +2,7 @@
 
 Projeto desenvolvido como um **wiki visual** dedicada às heroínas do jogo **Mobile Legends: Bang Bang**, com foco em apresentação de história.
 
-## 🎨 [Visualizar protótipo no Figma]([https://www.figma.com/file/XXXXXXXX/Meu-Projeto](https://www.figma.com/community/file/1533096517552937153))
+🎨 [Visualizar protótipo no Figma](https://www.figma.com/community/file/1533096517552937153)
 
 ## 🎮 Sobre o projeto
 
