@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Legends Heroines</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/logo.png" type="png">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="header-icons">
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+            <a href="#"><i class="fa-solid fa-plus"></i></a>
+        </div>
+
+        <nav class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">Search</a></li>
+            <li><a href="#">Message</a></li>
+        </nav>
+
+        <div class="header-buttons">
+
+            <button id="btn-login">Log in</button>
+            <button id="btn-singup">Sing up</button>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="carousel">
+
+            <button class="left">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+            <div class="carousel-slides">
+
+                <div class="slide ativo" style="background: linear-gradient(#3eafc5, #73add1, #5E5EB3);">
+                    <div class="text">
+                        <h1>MIYA</h1>
+                        <p class="slogan">
+                            “An archer blessed by the Moon God.”
+                        </p>
+                        <p>
+                            Miya, born at the end of the Era of Strife, witnessed the elves' suffering during the
+                            Endless War and the corruption of her people by the Abyss. After the Moon Goddess created
+                            the Lunar Aegis, the Moon Elves flourished again. As the devoted Priestess of the Moon, Miya
+                            protected her people for millennia. Now, with the Abyss rising once more, she answers the
+                            ancient call to war, vowing under the moonlight to fight for her people.
+                        </p>
+                    </div>
+                    <img src="img/carousel/miya/miya.png">
+                </div>
+
+                <div class="slide" style="background: linear-gradient(#626bd2, #7bb8d5, #8aaaaf);">
+                    <div class="text">
+                        <h1>EUDORA</h1>
+                        <p class="slogan">
+                            “The master of the power of lightning.”
+                        </p>
+                        <p>
+                            Eudora is a Light Elf who possesses a high level of magical talent, yet always loses control
+                            of her emotions because of her being discriminated against due to her Elf status. Later, she
+                            was discovered by the mentor of the Magic Academy, Theresa, who took her to the Magic
+                            Academy to study. Finally, she overcame the gloom in her heart and succeeded Theresa,
+                            becoming the dean of the Ulturia School.
+                        </p>
+                    </div>
+                    <img src="img/carousel/eudora/eudora.png">
+                </div>
+
+                <div class="slide" style="background: linear-gradient(#1d2a55, #ff9cac, #840b55);">
+                    <div class="text">
+                        <h1>LESLEY</h1>
+                        <p class="slogan">
+                            “Harley's guardian and a talented sniper.”
+                        </p>
+                        <p>
+                            After the death of her father, she was adopted by House Vance and became Harley's sister.
+                            Lesley regarded her younger brother as everything to her, and kept protecting Harley
+                            secretly.
+                        </p>
+                    </div>
+                    <img src="img/carousel/lesley/lesley.png">
+                </div>
+
+                <div class="slide" style="background: linear-gradient(#fff47f, #ff9cac, hotpink);">
+                    <div class="text">
+                        <h1>RAFAELA</h1>
+                        <p class="slogan">
+                            “The angel who heals everything.”
+                        </p>
+                        <p>
+                            Rafaela and her elder brother Argus are both angels, but Argus was treated differently
+                            because of his status as a male target. All praise was given to Rafaela, and all criticism
+                            was left to Argus. After a series of events that were left to ferment, rifts appeared in the
+                            relationship between the two siblings. Argus finally fell into the Abyss, but was helpless
+                            to do anything about. She is an angel whom people admire, but her elder brother continues to
+                            perish in pain.
+                        </p>
+                    </div>
+                    <img src="img/carousel/rafaela/rafaela.png">
+                </div>
+
+                <div class="slide" style="background: linear-gradient(#5acded, #64c4a7, #a159e4);">
+                    <div class="text">
+                        <h1>VEXANA</h1>
+                        <p class="slogan">
+                            “The young duchess guards the Necrokeep.”
+                        </p>
+                        <p>
+                            Vexana was the majestic ruler of Necrokeep, the gentle mother of the undead, but also the
+                            only glimmer of light that penetrated the Mist, bringing hope to this cursed land shunned by
+                            both life and death.
+                        </p>
+                    </div>
+                    <img src="img/carousel/vexana/vexana.png">
+                </div>
+
+            </div>
+
+            <button class="right">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+
+        </section>
+
+        <div class="about-title">
+            <h2>About the Heroin</h2>
+        </div>
+
+        <section class="description">
+
+            <div class="description-heroines ativo">
+
+                <div class="profile">
+
+                    <div class="hero-img">
+                        <img src="img/carousel/miya/miya_port.jpg">
+                    </div>
+
+                    <div class="main-topics">
+
+                        <div class="topic">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="title">SPECIES</p>
+                            <p class="text">Moon elf</p>
+                        </div>
+
+                        <div class="topic">
+                            <i class="fa-solid fa-compass"></i>
+                            <p class="title">BORN</p>
+                            <p class="text">Azrya Woodlands</p>
+                        </div>
+
+                        <div class="topic">
+                            <i class="fa-solid fa-crown"></i>
+                            <p class="title">OCCUPATION</p>
+                            <p class="text">Priestess</p>
+                        </div>
+
+                        <div class="topic">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <p class="title">WEAPONS</p>
+                            <p class="text">Silver bow and arrow</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="abilities">
+
+                    <div class="card">
+                        <img src="img/carousel/miya/Moon_Blessing.png">
+                        <p class="title">Moon Blessing</p>
+                        <p class="text">
+                            Each time Miya hits a target with her Basic Attack, she
+                            gains 5% Attack Speed for 4 seconds. Stacks up to 5 times.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/carousel/miya/Moon_Arrow.png">
+                        <p class="title">Moon Arrow</p>
+                        <p class="text">
+                            Miya shoots two extra arrows with each Basic Attack, dealing
+                            10–35 Physical Damage to the target enemy and 30% damage to
+                            nearby targets. This effect lasts 4 seconds.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/carousel/miya/Arrow_of_Eclipse.png">
+                        <p class="title">Arrow of Eclipse</p>
+                        <p class="text">
+                            Miya launches an empowered arrow on the target area, dealing
+                            270–420 Physical Damage to enemies within and immobilizing
+                            them for 1.2 seconds.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/carousel/miya/Hidden_Moonlight.png">
+                        <p class="title">Hidden Moonlight</p>
+                        <p class="text">
+                            Miya removes all debuffs on her and conceals herself, gaining
+                            35%–65% extra Movement Speed. This state lasts 2 seconds or
+                            until she launches an attack.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="description-heroines">
+
+                <div class="profile">
+
+                    <div class="hero-img">
+                        <img src="img/carousel/eudora/eudora_port.png">
+                    </div>
+
+                    <div class="main-topics">
+
+                        <div class="topic">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="title">SPECIES</p>
+                            <p class="text">Light Elf</p>
+                        </div>
+
+                        <div class="topic">
+                            <i class="fa-solid fa-compass"></i>
+                            <p class="title">BORN</p>
+                            <p class="text">Moniyan Empire</p>
+                        </div>
+
+                        <div class="topic">
+                            <i class="fa-solid fa-crown"></i>
+                            <p class="title">OCCUPATION</p>
+                            <p class="text">Magic Academy Professor</p>
+                        </div>
+
+                        <div class="topic">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <p class="title">WEAPONS</p>
+                            <p class="text">Lightning Nexus</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="abilities">
+
+                    <div class="card">
+                        <img src="img/carousel/eudora/Superconductor.png">
+                        <p class="title">Superconductor</p>
+                        <p class="text">
+                            Eudora's skills inflict Superconductor Superconductor for 3 seconds on hit and can trigger
+                            additional effects affected by Superconductor.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/carousel/eudora/Forked_Lightning.png">
+                        <p class="title">Forked Lightning</p>
+                        <p class="text">
+                            Eudora casts forked lightning, dealing 350–650 Magic Damage to
+                            enemies in a fan-shaped area.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/carousel/eudora/Ball_Lightning.png">
+                        <p class="title">Ball Lightning</p>
+                        <p class="text">
+                            Eudora hurls an orb of lightning at the target enemy, dealing 350–450 Magic Damage, stunning
+                            the target for 1.2 seconds, and reducing the target's Magic
+                            Defense by 10–25.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/carousel/eudora/Thunder_Wrath.png">
+                        <p class="title">Thunder's Wrath</p>
+                        <p class="text">
+                            Eudora calls down a blast of lightning on the target [non-minion enemy,] dealing 480–840
+                            (+180% Total Magic Power) Magic Damage.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="description-heroines">
+
+                <div class="profile">
+
+                    <div class="hero-img">
+                        <img src="img/carousel/lesley/lesley_port.png">
+                    </div>
+
+                    <div class="main-topics">
+
+                        <div class="topic">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="title">SPECIES</p>
+                            <p class="text">Human</p>
+                        </div>
+
+                        <div class="topic">
+                            <i class="fa-solid fa-compass"></i>
+                            <p class="title">ORIGIN</p>
+                            <p class="text">Castle Grandrock</p>
+                        </div>
+
+                        <div class="topic">
+                            <i class="fa-solid fa-crown"></i>
+                            <p class="title">AFFILIATION</p>
+                            <p class="text">House Vance</p>
+                        </div>
+
+                        <div class="topic">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <p class="title">WEAPONS</p>
+                            <p class="text">Black Vulture, Tactical Grenade</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="abilities">
+
+                    <div class="card">
+                        <img src="img/carousel/lesley/Lethal_Shot.png">
+                        <p class="title">Lethal Shot</p>
+                        <p class="text">
+                            If Lesley doesn't take damage for 5 seconds, her next Basic Attack gains extra range and 50%
+                            Critical Chance and deals 50 True Damage (20% extra damage
+                            against minions).
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/carousel/lesley/Master_of_Camouflage.png">
+                        <p class="title">Master of Camouflage</p>
+                        <p class="text">
+                            Lesley enters the Camouflage state, gaining double Energy Regen, 40% extra Movement Speed,
+                            and 85–135 extra Physical Attack.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/carousel/lesley/Tactical_Grenade.png">
+                        <p class="title">Tactical Grenade</p>
+                        <p class="text">
+                            Lesley throws a tactical grenade in the target direction while slightly jumping back,
+                            dealing 150–300 to enemies in a cone and knocking them back.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/carousel/lesley/Ultimate_Snipe_2.png">
+                        <p class="title">Ultimate Snipe</p>
+                        <p class="text">
+                            Lesley [gains vision to nearby enemies and can lock] onto the target enemy hero and fires 4
+                            Lethal Bullets in succession, each dealing 250–350. The Bullets can be blocked by other
+                            enemy heroes.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="description-heroines">
+
+                <div class="profile">
+
+                    <div class="hero-img">
+                        <img src="img/carousel/rafaela/rafaela_port.png">
+                    </div>
+
+                    <div class="main-topics">
+
+                        <div class="topic">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="title">SPECIES</p>
+                            <p class="text">Light Angel</p>
+                        </div>
+
+                        <div class="topic">
+                            <i class="fa-solid fa-compass"></i>
+                            <p class="title">ORIGIN</p>
+                            <p class="text">Lumina City</p>
+                        </div>
+
+                        <div class="topic">
+                            <i class="fa-solid fa-crown"></i>
+                            <p class="title">SPECIALTY</p>
+                            <p class="text">Regen, Guard</p>
+                        </div>
+
+                        <div class="topic">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <p class="title">WEAPONS</p>
+                            <p class="text">Staff</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="abilities">
+
+                    <div class="card">
+                        <img src="img/carousel/rafaela/Divine_Resurrection.png">
+                        <p class="title">Divine Resurrection</p>
+                        <p class="text">
+                            At regular intervals, Rafaela can use a special skill to instantly resurrect a fallen allied
+                            hero after a brief channeling. The resurrected allied hero will respawn at the base.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/carousel/rafaela/Light_of_Retribution.png">
+                        <p class="title">Light of Retribution</p>
+                        <p class="text">
+                            Rafaela strikes the three nearest enemies With Light of Retribution, dealing them 225–500
+                            Magic Damage, briefly revealing their positions, and slowing them
+                            by 40% for 1.5s.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/carousel/rafaela/Holy_Healing.png">
+                        <p class="title">Holy Healing</p>
+                        <p class="text">
+                            Rafaela calls upon Holy Light, restoring 100–125 HP to nearby
+                            allied heroes, plus and additional 150–250 HP to herself and the
+                            most injured allied hero in range.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/carousel/rafaela/Holy_Baptism.png">
+                        <p class="title">Holy Baptism</p>
+                        <p class="text">
+                            Rafaela unleashes the true power of Holy Light in the target direction, dealing 460–660
+                            Magic Damage to enemies in a line and stunning them for 1.5
+                            seconds.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="description-heroines">
+
+                <div class="profile">
+
+                    <div class="hero-img">
+                        <img src="img/carousel/vexana/vexana_port.png">
+                    </div>
+
+                    <div class="main-topics">
+
+                        <div class="topic">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="title">SPECIES</p>
+                            <p class="text">Undead</p>
+                        </div>
+
+                        <div class="topic">
+                            <i class="fa-solid fa-compass"></i>
+                            <p class="title">ORIGIN</p>
+                            <p class="text">Lumina City</p>
+                        </div>
+
+                        <div class="topic">
+                            <i class="fa-solid fa-crown"></i>
+                            <p class="title">OCCUPATION</p>
+                            <p class="text">Princess of the House of Gaius</p>
+                        </div>
+
+                        <div class="topic">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <p class="title">WEAPONS</p>
+                            <p class="text">Duke Atticus' Scepter</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="abilities">
+
+                    <div class="card">
+                        <img src="img/carousel/vexana/Nether_Touch.png">
+                        <p class="title">Nether Touch</p>
+                        <p class="text">
+                            Vexana and the Eternal Guard inflict Nether Curse on enemies hit. The Curse lasts 5 seconds
+                            and will cause the affected enemy to explode upon death.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/carousel/vexana/Deathly_Grasp.png">
+                        <p class="title">Deathly Grasp</p>
+                        <p class="text">
+                            Vexana unleashes a Deathly Grasp in the target direction. The projectile stops upon hitting an enemy hero, terrifying them and
+                            knocking them back.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/carousel/vexana/Cursed_Blast.png">
+                        <p class="title">Cursed Blast</p>
+                        <p class="text">
+                            Vexana marks the target area with the power of the undead, striking it after 0.8 seconds
+                            delay and dealing Magic Damage to enemies hit.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/carousel/vexana/Eternal_Guard.png">
+                        <p class="title">Eternal Guard</p>
+                        <p class="text">
+                            Vexana summons an Eternal Guard at the target location, dealing Magic Damage to enemies hit
+                            and knocking them airborne for 0.8 seconds.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="heroin-slogan">
+
+            <div class="area-slogan ativo" style="background-color: #5E5EB3;">
+                <p class="text">
+                    "Peace, benevolence, and purity are what you wished for, but if we lose our home, our way of life,
+                    then
+                    all our efforts will be for naught. If war is already upon our doorstep, then we will meet it head
+                    on.
+                    We are prepared to sacrifice everything for our home. Give me the strength, courage and faith to
+                    protect
+                    our people, and our homeland!"
+                </p>
+                <p class="heroin-name">
+                    — Miya
+                </p>
+            </div>
+
+            <div class="area-slogan" style="background-color: #626bd2;">
+                <p class="text">
+                    "I know who I am, and you will one day find out who I am going to become."
+                </p>
+                <p class="heroin-name">
+                    — Eudora
+                </p>
+            </div>
+
+            <div class="area-slogan" style="background-color: #840b55;">
+                <p class="text">
+                    "Adopted daughter of House Vance, a clandestine sniper."
+                </p>
+                <p class="heroin-name">
+                    — Lesley
+                </p>
+            </div>
+
+            <div class="area-slogan" style="background-color: hotpink;">
+                <p class="text">
+                    "Time passes, never to return. No matter human or angel, none can turn back the hands of time."
+                </p>
+                <p class="heroin-name">
+                    — Rafaela
+                </p>
+            </div>
+
+            <div class="area-slogan" style="background-color: #a159e4;">
+                <p class="text">
+                    "She would find a way to revert the curse... and her people would have a taste of life once again."
+                </p>
+                <p class="heroin-name">
+                    — Vexana
+                </p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
