@@ -4,6 +4,10 @@ Projeto desenvolvido como um **wiki visual** dedicada às heroínas do jogo **Mo
 
 🎨 [Visualizar protótipo no Figma](https://www.figma.com/community/file/1533096517552937153)
 
+## Preview
+
+<img width="90%" alt="heroines-wiki-image" src="https://github.com/user-attachments/assets/d2fb8162-1d0e-401a-9270-6286702cdb12" />
+
 ## 🎮 Sobre o projeto
 
 Essa aplicação front-end simula uma apresentação em estilo carrossel das personagens femininas do jogo, com:
